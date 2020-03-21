@@ -16,7 +16,7 @@ export default {
         type: 'object',
         fields: [
           {name: 'question', type: 'string', title: 'Question'},
-          {name: 'answer', type: 'markdown', title: 'Answer'} // 
+          {name: 'answer', type: 'markdown', title: 'Answer'}
         ]
       }]
     }
