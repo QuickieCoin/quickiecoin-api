@@ -19,6 +19,16 @@ export default {
       type: "string",
     },
     {
+      title: "Latitude",
+      name: "lat",
+      type: "number",
+    },
+    {
+      title: "Longitude",
+      name: "long",
+      type: "number",
+    },
+    {
       title: 'Hours',
       name: 'hours',
       type: 'array',
