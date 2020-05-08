@@ -40,6 +40,11 @@ export default {
       title: "Thumb",
       name: "thumb",
       type: "image",
+    },
+    {
+      title: "Open",
+      name: "open",
+      type: "boolean",
     }
   ]
 };
