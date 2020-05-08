@@ -1,9 +1,19 @@
 # Sanity Clean Content Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is the code to manage the schema of objects used in QuickieCoin's marketing frontend.
 
-Now you can do the following things:
+To spin it up for the first time
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+`npm install`
+
+Then whenever you want to run the project
+
+`npm start`
+
+When you're ready to deploy this to [the production API](https://quickiecoin.sanity.studio/), you can run
+
+`sanity login`
+
+and
+
+`sanity deploy`
